@@ -1,0 +1,28 @@
+{
+    "name": "storeteam/module-disable-compare",
+    "description": "Lightweight Magento 2.4.x & Hyvä Theme module to cleanly disable Compare Products across catalog, search, widgets, and customer-data without core edits.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "1.0.0",
+    "homepage": "https://storeteam.net/how-to-disable-compare-products-in-magento-2",
+    "authors": [
+        {
+            "name": "StoreTeam — Magento 2 & Hyvä Specialists",
+            "email": "info@storeteam.net",
+            "homepage": "https://storeteam.net/magento-development-company"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.1 || ^8.2 || ^8.3 || ^8.4",
+        "magento/framework": "^103.0",
+        "magento/module-catalog": "^104.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "StoreTeam\\DisableCompare\\": ""
+        }
+    }
+}
